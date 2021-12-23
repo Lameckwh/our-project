@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application Form</title>
+
+	 <link rel="stylesheet" href="../css/styleapp.css">	     
+	 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+	<header>
+		<h1>Application Form</h1>
+	</header>
+	 <section>
+    <form action="#" method="POST">
+    	<p style="text-align: center;"><i> Make sure information entered is correct</i></p>
+    	<fieldset>
+    		<legend>Personal Details</legend>
+    		 <div class="col-count">
+    		 	 <label>
+    		 	 	First Name: <input type="text" name="fname" placeholder="First Name">
+    		 	 </label>
+    		 	 <label>
+    		 	 	Last Name: <input type="text" name="lname" placeholder="Last Name">
+    		 	 </label>
+    		 	 <label>
+    		 	 	Registration Number: <input type="text" name="rnumber" placeholder="Reg Number">
+    		 	 </label>
+    		 	  <label><b>Programme: </b>
+		 <select >
+		 	<<option disabled="disabled" selected="selected">select</option>
+		 	<option>CIS</option>
+		 	<option>BIT</option>
+		 	<option>MME</option>
+		 	<option>CHEM</option>
+		 	<option>BME</option>
+		 	<option>KSP</option>
+		 	<option>DRM</option>
+		 	<option>MEC</option>
+		 	<option>GID</option>
+		 	<option>ESE</option>
+		 	<option>DGI</option>
+		 	<option>MSC</option>
+		 	<option>SES</option>
+		 	<option>TEXS</option>
+		 </select>
+		</label>
+		 <label> <b>Gender: </b>
+		 	<span class="radio">
+		 		<input type="radio" name="Gender" value="Male"> Male
+		        <input type="radio" name="Gender" value="Female"> Female 
+		 	</span>	 
+		</label>
+		 <label><b>Year of Study: </b>
+		 <select>
+		 	<option disabled="disabled" selected="selected">select</option>
+		 	<option>1</option>
+		 	<option>2</option>
+		 	<option>3</option>
+		 	<option>4</option>
+		 	<option>5</option>
+		 </select>
+		 <br>
+		 <label> <b>Are you disabled?: </b>
+		 	<span class="radio">
+		 		<input type="radio" name="disable" value="Yes"> Yes
+		        <input type="radio" name="disable" value="No"> No
+		 	</span>	 
+		</label>
+
+		 <label><b>If yes Specify: </b>
+	<select>	  
+  <option disabled="disabled" selected="selected">select</option> 
+  <option>vision Impairment</option> 
+  <option>deaf or hard of hearing</option> 
+  <option>intellectual disability.</option>
+  <option>acquired brain injury</option>
+  <option>mental health conditions</option>
+  <option>physical disability</option>
+    <option>skin disability</option>
+</select>
+</label>
+
+
+		 </label>
+		
+    		 </div>
+    	</fieldset>
+  <fieldset style="height: 250px; width: inherit;">
+    		<legend>Contact Details</legend>
+    		<div class="col-count">
+    		     <label>
+    		 	 	Phone Number 1: <input type="number" minlength="10" maxlength="10" placeholder="(1)0xxxxx" style="width: 200px;">
+    		 	 </label>
+    		 	 
+    		 	 <label>
+    		 	 	Phone Number 1: <input type="number" minlength="10" maxlength="10" placeholder="(2)0xxxxx" style="width: 200px";>
+    		 	 </label>
+    		 	 
+    		 	 <label>
+    		 	 	Student Email: <input type="email" name="email" placeholder="abc@must.ac.mw">
+    		 	 </label>
+    	 
+    		 </div>
+    	</fieldset>
+      
+       <div class="button">
+             <button type="submit" class="form-submit" id="signin"> <a href="sidebar.html">Submit</a></button>
+             <button type="reset" class="form-submit" id="signin"> Clear</button>
+       </div>
+      
+         </form>
+   </section>	
+</body>
+</html>

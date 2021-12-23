@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Requests</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style1.css">
+  </head>
+  <body>
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Toggle Menu</span>
+          </button>
+        </div>
+        <h1><a href="index.html" class="logo">OAMS</a></h1>
+        <ul class="list-unstyled components mb-5">
+          <li>
+            <a href="index.html"><span class="fa fa-home mr-3"></span> Home</a>
+          </li>
+          <li>
+              <a href="sidebar.html"><span class="fa fa-user mr-3"></span> Dashboard</a>
+          </li>
+          <li>
+            <a href="application.html"><span class="fa fa-sticky-note mr-3"></span> Applications</a>
+          </li>
+          <li  class="active">
+            <a href="#"><span class="fa fa-sticky-note mr-3"></span> Requests</a>
+          </li>
+          <li>
+            <a href="contact.html"><span class="fa fa-paper-plane mr-3"></span> Contacts</a>
+          </li>
+            <li>
+                 <a href="../index.html"><span class="fa fa-paper-plane mr-3"></span>LOG OUT</a>
+          </li>
+        </ul>
+
+        <p style="text-align: center;"> <q>Where Excellence Reigns</q></p>
+
+      </nav>
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+   <hr>
+
+   <section>
+    <form action="#" method="POST">
+       <fieldset>
+      <legend>Fault Report</legend>
+      <p style="text-align: center;"><i>Please report any room fault as soon as its occurence </i></p>
+
+      <label id="fault">
+        Faulty type: 
+        <select>
+          <option disabled="disabled" selected="selected" style="background-color: lightblue;">select</option>
+          <option>Electrical</option>
+          <option>Locked Room</option>
+          <option>Damages</option>
+          <option>Broken drawers</option>
+        </select>
+      </label> 
+      <br> <br>
+
+
+  <label class="label">
+    <p style="text-align: center;">Desription</p>
+    <textarea class="textarea h-24 textarea-bordered" placeholder="describe..."></textarea>
+  </label> 
+  
+ 
+       
+    </fieldset>
+    <fieldset id="other">
+      <legend>Requests</legend>
+        <p style="text-align: center;"><i><strong>Note: </strong>Only valid reason will be entertained </i></p>
+
+      <label id="fault">
+        Request type: 
+        <select>
+          <option selected="selected" disabled="disabled" style="background-color: lightblue;">select</option>
+          <option>Room Transfer</option>
+          <option>Accodation withdrawal</option>
+        </select>
+      </label> 
+      <br> <br>
+
+
+  <label class="label">
+    <p style="text-align: center;">Explaination</p>
+    <textarea class="textarea h-24 textarea-bordered" placeholder="Explain..."></textarea>
+  </label> 
+    
+    </fieldset>
+    <div class="button">
+             <button type="submit" class="form-submit" id="signin"> Submit</button>
+             <button type="reset" class="form-submit" id="signin"> Clear</button>
+    </div>
+    </form>
+          
+   
+   </section>
+  
+    </div>
+
+   
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
