@@ -512,6 +512,9 @@ label.valid {
   .container {
     max-width: 1200px; } }
 @media screen and (max-width: 768px) {
+  figure {
+    display: none;
+  }
   .signup-content, .signin-content {
     flex-direction: column;
     -moz-flex-direction: column;
